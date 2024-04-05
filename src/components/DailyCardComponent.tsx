@@ -29,7 +29,7 @@ const DailyCardComponent: React.FC<StatInterface> = ({mediaType, title, stats, u
           </div>
 
           <div className="flex justify-around"> 
-            <img src={mediaSelect} alt={mediaType} className="bg-white rounded-full"/>
+            <img src={mediaSelect} alt={mediaType}/>
           </div>
 
           <div className="flex justify-around">

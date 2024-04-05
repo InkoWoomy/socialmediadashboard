@@ -30,7 +30,7 @@ const OverallCardComponent: React.FC<OverallInterface> = ({cardColor, mediaType,
             <img
               src={mediaSelect}
               alt={mediaType}
-              className="self-center bg-white rounded-full"
+              className="self-center"
             />
             <h1 className="font-light ml-2">{`${title || "title"}`}</h1>
           </div>

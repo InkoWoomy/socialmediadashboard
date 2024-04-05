@@ -2,7 +2,7 @@ import React from "react";
 import OverallCardComponent from "../components/OverallStatsCardComponent";
 import DailyCardComponent from "../components/DailyCardComponent";
 import { DarkThemeToggle, Flowbite } from "flowbite-react";
-import { LightDarkComponent } from "../components/ToggleLightDarkComponent";
+
 
 const Dashboard = () => {
   return (
@@ -11,7 +11,7 @@ const Dashboard = () => {
         <div className="min-h-screen dark:bg-slate-900 py-2">
           <div className="flex">
             <div>
-              <h1 className="text-gray-200 text-4xl px-10 pt-10 font-extrabold">
+              <h1 className="text-gray-500 text-4xl px-10 pt-10 font-extrabold">
                 Social Media Dashboard
               </h1>
               
@@ -21,7 +21,7 @@ const Dashboard = () => {
             </div>
           </div>  
             
-              <h2 className="dark:text-gray-400 text-2xl px-10 pt-2 pb-8 font-bold">
+              <h2 className="text-gray-400 text-2xl px-10 pt-2 pb-8 font-bold">
                 Total Followers: 23,004
               </h2>
 
@@ -75,7 +75,7 @@ const Dashboard = () => {
 
           <div className="flex">
             <div>
-              <h1 className="text-gray-200 text-4xl px-8 py-4 font-extrabold">
+              <h1 className="text-gray-500 text-4xl px-8 py-4 font-extrabold">
                 Overview - Today
                 
               </h1>
